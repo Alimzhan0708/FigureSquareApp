@@ -1,6 +1,6 @@
 ﻿namespace FigureSquareApp.Figures
 {
-    internal class Triangle : IFigure
+    public class Triangle : IFigure
     {
         public double A { get; private set; }
         public double B { get; private set; }
@@ -11,6 +11,12 @@
             A = a;
             B = b;
             C = c;
+        }
+
+        public bool IsRightangled()
+        {
+            if (Math.Pow(A, 2) + Math.Pow(B, 2) == Math.Pow(C, 2)) return true;
+            return false;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace FigureSquareApp.Figures
 {
-    internal interface IFigure
+    public interface IFigure
     {
     }
 }

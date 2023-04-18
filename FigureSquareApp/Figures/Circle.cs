@@ -1,6 +1,6 @@
 ﻿namespace FigureSquareApp.Figures
 {
-    internal class Circle : IFigure
+    public class Circle : IFigure
     {
         public double Radius { get; private set; }
 
